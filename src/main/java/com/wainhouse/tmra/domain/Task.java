@@ -27,6 +27,7 @@ public class Task { // Creating all the attributes for a task class.
 	private String taskName;
 	private String date;
 	private String type;
+	private String imageUrl;
 	private Status status;
 
 	public Long getId() {
