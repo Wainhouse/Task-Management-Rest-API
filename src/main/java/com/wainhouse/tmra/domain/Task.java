@@ -13,6 +13,8 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.security.PrivateKey;
+
 @Entity
 @Data
 @NoArgsConstructor
@@ -29,6 +31,8 @@ public class Task { // Creating all the attributes for a task class.
 	private String type;
 	private String imageUrl;
 	private Status status;
+	private String time;
+
 
 	public Long getId() {
 		return id;
