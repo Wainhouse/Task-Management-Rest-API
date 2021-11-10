@@ -2,7 +2,7 @@
 Springboot Task Management API
 
 # Aim
-The aim of this project, is to creata fully functioning fullstack Task Management API. 
+The aim of this project, is to create fully functioning fullstack Task Management API. 
 
 # Technology
 
