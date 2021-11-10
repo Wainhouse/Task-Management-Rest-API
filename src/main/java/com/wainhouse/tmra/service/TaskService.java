@@ -4,14 +4,14 @@ import java.util.Collection;
 
 import com.wainhouse.tmra.domain.Task;
 
-public interface TaskService {
+public interface TaskService { // added functionalities/ features
 	Task create(Task task);
 
-	Collection<Task> list(int limit);
+	Collection<Task> list(int limit); // limit amount we can see
 
-	Task get(Long id);
+	Task get(Long id); // get
 
-	Task update(Task task);
+	Task update(Task task); // update
 
-	Boolean delete(String taskName);
+	Boolean delete(Long id); // delete
 }
