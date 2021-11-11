@@ -1,10 +1,8 @@
 package com.wainhouse.tmra.enumeration;
 
 public enum Status {
-	TASK_NOT_COMPLETED("Not-Completed");
-	TASK_COMPLETED("Completed");
-	
-	
+	TASK_COMPLETED("Task Completed"),
+	TASK_NOT_COMPLETED("Task Not Completed");
 	private final String status;
 	
 	Status(String string) {
